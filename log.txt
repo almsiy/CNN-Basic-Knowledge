@@ -1,0 +1,513 @@
+E:\>python test.py
+C:\Python35\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Aaron_Eckhart
+Adam_Brody
+Adam_McKay
+Adam_Sandler
+Adrianne_León
+Adrienne_Barbeau
+Adrienne_Frantz
+Adrien_Brody
+Aisha_Hinds
+Alan_Alda
+Alan_Arkin
+Alan_Rickman
+Alec_Baldwin
+Alfred_Molina
+Alice_Krige
+Alley_Mills
+Allison_Janney
+Alyson_Hannigan
+Alyssa_Milano
+Al_Pacino
+Amanda_Bearse
+Amaury_Nolasco
+America_Ferrera
+Amy_Davidson
+Andrea_Anders
+Andrea_Bogart
+Andrea_Bowen
+Andy_Garcia
+Andy_Richter
+Andy_Serkis
+Angell_Conwell
+Angie_Harmon
+Anne_Hathaway
+Annie_Ilonzeh
+Anthony_Hopkins
+Anthony_Stewart_Head
+Antonio_Banderas
+Arnold_Schwarzenegger
+Arnold_Vosloo
+Ashley_Benson
+Ashley_Johnson
+Ashley_Jones
+Ashton_Kutcher
+Audra_McDonald
+Audrey_Landers
+['Aaron_Eckhart', 'Adam_Brody', 'Adam_McKay', 'Adam_Sandler', 'Adrianne_León', 'Adrienne_Barbeau', 'Adrienne_Frantz', 'Adrien_Brody', 'Aisha_Hinds', 'Alan_Alda', 'Alan_Arkin', 'Alan_Rickman', 'Alec_Baldwin', 'Alfred_Molina', 'Alice_Krige', 'Alley_Mills', 'Allison_Janney', 'Alyson_Hannigan', 'Alyssa_Milano', 'Al_Pacino', 'Amanda_Bearse', 'Amaury_Nolasco', 'America_Ferrera', 'Amy_Davidson', 'Andrea_Anders', 'Andrea_Bogart', 'Andrea_Bowen', 'Andy_Garcia', 'Andy_Richter', 'Andy_Serkis', 'Angell_Conwell', 'Angie_Harmon', 'Anne_Hathaway', 'Annie_Ilonzeh', 'Anthony_Hopkins', 'Anthony_Stewart_Head', 'Antonio_Banderas', 'Arnold_Schwarzenegger', 'Arnold_Vosloo', 'Ashley_Benson', 'Ashley_Johnson', 'Ashley_Jones', 'Ashton_Kutcher', 'Audra_McDonald', 'Audrey_Landers']
+['Aaron_Eckhart', 'Adam_Brody', 'Adam_McKay', 'Adam_Sandler', 'Adrianne_León', 'Adrienne_Barbeau', 'Adrienne_Frantz', 'Adrien_Brody', 'Aisha_Hinds', 'Alan_Alda', 'Alan_Arkin', 'Alan_Rickman', 'Alec_Baldwin', 'Alfred_Molina', 'Alice_Krige', 'Alley_Mills', 'Allison_Janney', 'Alyson_Hannigan', 'Alyssa_Milano', 'Al_Pacino', 'Amanda_Bearse', 'Amaury_Nolasco', 'America_Ferrera', 'Amy_Davidson', 'Andrea_Anders', 'Andrea_Bogart', 'Andrea_Bowen', 'Andy_Garcia', 'Andy_Richter', 'Andy_Serkis', 'Angell_Conwell', 'Angie_Harmon', 'Anne_Hathaway', 'Annie_Ilonzeh', 'Anthony_Hopkins', 'Anthony_Stewart_Head', 'Antonio_Banderas', 'Arnold_Schwarzenegger', 'Arnold_Vosloo', 'Ashley_Benson', 'Ashley_Johnson', 'Ashley_Jones', 'Ashton_Kutcher', 'Audra_McDonald', 'Audrey_Landers']
+(6378, 200, 200, 3)
+(6378, 176)
+(440, 200, 200, 3)
+(440, 176)
+The 0 th Iteration
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 717s 112ms/step - loss: 0.6980 - acc: 0.7797 - val_loss: 0.2145 - val_acc: 0.9500
+The 1 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 730s 114ms/step - loss: 0.6371 - acc: 0.8010 - val_loss: 0.2041 - val_acc: 0.9545
+The 2 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 736s 115ms/step - loss: 0.5751 - acc: 0.8206 - val_loss: 0.1708 - val_acc: 0.9500
+The 3 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 741s 116ms/step - loss: 0.5478 - acc: 0.8288 - val_loss: 0.2104 - val_acc: 0.9455
+The 4 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 745s 117ms/step - loss: 0.4535 - acc: 0.8545 - val_loss: 0.1774 - val_acc: 0.9614
+The 5 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 743s 116ms/step - loss: 0.4467 - acc: 0.8598 - val_loss: 0.1851 - val_acc: 0.9523
+The 6 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 739s 116ms/step - loss: 0.4049 - acc: 0.8653 - val_loss: 0.1459 - val_acc: 0.9682
+The 7 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 739s 116ms/step - loss: 0.3865 - acc: 0.8786 - val_loss: 0.1525 - val_acc: 0.9636
+The 8 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 747s 117ms/step - loss: 0.3711 - acc: 0.8801 - val_loss: 0.1709 - val_acc: 0.9614
+The 9 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 750s 118ms/step - loss: 0.3272 - acc: 0.8995 - val_loss: 0.1754 - val_acc: 0.9545
+The 10 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 746s 117ms/step - loss: 0.3009 - acc: 0.8997 - val_loss: 0.1488 - val_acc: 0.9591
+The 11 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 749s 117ms/step - loss: 0.3124 - acc: 0.8987 - val_loss: 0.1697 - val_acc: 0.9591
+The 12 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 751s 118ms/step - loss: 0.2624 - acc: 0.9155 - val_loss: 0.1371 - val_acc: 0.9636
+The 13 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 749s 117ms/step - loss: 0.2783 - acc: 0.9055 - val_loss: 0.1559 - val_acc: 0.9614
+The 14 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 751s 118ms/step - loss: 0.2498 - acc: 0.9167 - val_loss: 0.1684 - val_acc: 0.9568
+The 15 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 751s 118ms/step - loss: 0.2345 - acc: 0.9218 - val_loss: 0.1614 - val_acc: 0.9568
+The 16 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 752s 118ms/step - loss: 0.2275 - acc: 0.9249 - val_loss: 0.1460 - val_acc: 0.9636
+The 17 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 752s 118ms/step - loss: 0.2228 - acc: 0.9255 - val_loss: 0.1441 - val_acc: 0.9659
+The 18 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 752s 118ms/step - loss: 0.2301 - acc: 0.9249 - val_loss: 0.1434 - val_acc: 0.9523
+The 19 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 754s 118ms/step - loss: 0.1954 - acc: 0.9345 - val_loss: 0.1539 - val_acc: 0.9568
+The 20 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 748s 117ms/step - loss: 0.1818 - acc: 0.9396 - val_loss: 0.1518 - val_acc: 0.9659
+The 21 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 745s 117ms/step - loss: 0.1865 - acc: 0.9395 - val_loss: 0.1316 - val_acc: 0.9614
+The 22 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 766s 120ms/step - loss: 0.1687 - acc: 0.9440 - val_loss: 0.1417 - val_acc: 0.9636
+The 23 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 805s 126ms/step - loss: 0.1664 - acc: 0.9472 - val_loss: 0.1492 - val_acc: 0.9614
+The 24 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 784s 123ms/step - loss: 0.1417 - acc: 0.9516 - val_loss: 0.1490 - val_acc: 0.9636
+The 25 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 783s 123ms/step - loss: 0.1516 - acc: 0.9487 - val_loss: 0.1391 - val_acc: 0.9682
+The 26 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 779s 122ms/step - loss: 0.1520 - acc: 0.9534 - val_loss: 0.1347 - val_acc: 0.9614
+The 27 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 775s 121ms/step - loss: 0.1497 - acc: 0.9523 - val_loss: 0.1624 - val_acc: 0.9614
+The 28 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 797s 125ms/step - loss: 0.1569 - acc: 0.9492 - val_loss: 0.1362 - val_acc: 0.9659
+The 29 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 802s 126ms/step - loss: 0.1408 - acc: 0.9526 - val_loss: 0.1285 - val_acc: 0.9659
+The 30 th Iteration
+
+
+E:\FaceRecognize>python CNN.py
+C:\Python35\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Aaron_Eckhart
+Adam_Brody
+Adam_McKay
+Adam_Sandler
+Adrienne_Barbeau
+Adrienne_Frantz
+Adrien_Brody
+Aisha_Hinds
+Alan_Alda
+Alan_Arkin
+Alan_Rickman
+Alec_Baldwin
+Alfred_Molina
+Alice_Krige
+Alley_Mills
+Allison_Janney
+Alyson_Hannigan
+Alyssa_Milano
+Al_Pacino
+Amanda_Bearse
+Amaury_Nolasco
+America_Ferrera
+Amy_Davidson
+Andrea_Anders
+Andrea_Bogart
+Andrea_Bowen
+Andy_Garcia
+Andy_Richter
+Andy_Serkis
+Angell_Conwell
+Angie_Harmon
+Anne_Hathaway
+Annie_Ilonzeh
+Anthony_Hopkins
+Anthony_Stewart_Head
+Antonio_Banderas
+Arnold_Schwarzenegger
+Arnold_Vosloo
+Ashley_Benson
+Ashley_Johnson
+Ashley_Jones
+Ashton_Kutcher
+Audra_McDonald
+Audrey_Landers
+['Aaron_Eckhart', 'Adam_Brody', 'Adam_McKay', 'Adam_Sandler', 'Adrienne_Barbeau', 'Adrienne_Frantz', 'Adrien_Brody', 'Aisha_Hinds', 'Alan_Alda', 'Alan_Arkin', 'Alan_Rickman', 'Alec_Baldwin', 'Alfred_Molina', 'Alice_Krige', 'Alley_Mills', 'Allison_Janney', 'Alyson_Hannigan', 'Alyssa_Milano', 'Al_Pacino', 'Amanda_Bearse', 'Amaury_Nolasco', 'America_Ferrera', 'Amy_Davidson', 'Andrea_Anders', 'Andrea_Bogart', 'Andrea_Bowen', 'Andy_Garcia', 'Andy_Richter', 'Andy_Serkis', 'Angell_Conwell', 'Angie_Harmon', 'Anne_Hathaway', 'Annie_Ilonzeh', 'Anthony_Hopkins', 'Anthony_Stewart_Head', 'Antonio_Banderas', 'Arnold_Schwarzenegger', 'Arnold_Vosloo', 'Ashley_Benson', 'Ashley_Johnson', 'Ashley_Jones', 'Ashton_Kutcher', 'Audra_McDonald', 'Audrey_Landers']
+(6378, 200, 200, 3)
+(6378, 176)
+(440, 200, 200, 3)
+(440, 176)
+The 0 th Iteration
+WARNING:tensorflow:Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 781s 123ms/step - loss: 0.4008 - acc: 0.8681 - val_loss: 0.1755 - val_acc: 0.9477
+The 1 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 767s 120ms/step - loss: 0.3778 - acc: 0.8739 - val_loss: 0.1722 - val_acc: 0.9500
+The 2 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 764s 120ms/step - loss: 0.3400 - acc: 0.8882 - val_loss: 0.1643 - val_acc: 0.9591
+The 3 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 762s 119ms/step - loss: 0.3732 - acc: 0.8758 - val_loss: 0.1651 - val_acc: 0.9568
+The 4 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 774s 121ms/step - loss: 0.3385 - acc: 0.8884 - val_loss: 0.1170 - val_acc: 0.9659
+The 5 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 766s 120ms/step - loss: 0.3184 - acc: 0.8965 - val_loss: 0.1413 - val_acc: 0.9636
+The 6 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 764s 120ms/step - loss: 0.3196 - acc: 0.8954 - val_loss: 0.1484 - val_acc: 0.9614
+The 7 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 762s 120ms/step - loss: 0.2772 - acc: 0.9114 - val_loss: 0.1541 - val_acc: 0.9614
+The 8 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 765s 120ms/step - loss: 0.2733 - acc: 0.9058 - val_loss: 0.1584 - val_acc: 0.9636
+The 9 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 760s 119ms/step - loss: 0.2696 - acc: 0.9108 - val_loss: 0.1586 - val_acc: 0.9659
+The 10 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 768s 120ms/step - loss: 0.2556 - acc: 0.9163 - val_loss: 0.1548 - val_acc: 0.9636
+The 11 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 761s 119ms/step - loss: 0.2412 - acc: 0.9233 - val_loss: 0.1475 - val_acc: 0.9659
+The 12 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 761s 119ms/step - loss: 0.2440 - acc: 0.9161 - val_loss: 0.1335 - val_acc: 0.9568
+The 13 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 762s 119ms/step - loss: 0.2319 - acc: 0.9207 - val_loss: 0.1483 - val_acc: 0.9568
+The 14 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 760s 119ms/step - loss: 0.1995 - acc: 0.9332 - val_loss: 0.1336 - val_acc: 0.9614
+The 15 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 768s 120ms/step - loss: 0.2119 - acc: 0.9304 - val_loss: 0.1488 - val_acc: 0.9614
+The 16 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 764s 120ms/step - loss: 0.2155 - acc: 0.9309 - val_loss: 0.1064 - val_acc: 0.9659
+The 17 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 763s 120ms/step - loss: 0.1949 - acc: 0.9365 - val_loss: 0.1449 - val_acc: 0.9614
+The 18 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 764s 120ms/step - loss: 0.1962 - acc: 0.9359 - val_loss: 0.1339 - val_acc: 0.9614
+The 19 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6378/6378 [==============================] - 762s 119ms/step - loss: 0.2110 - acc: 0.9294 - val_loss: 0.1332 - val_acc: 0.9682
+The 20 th Iteration
+Train on 6378 samples, validate on 440 samples
+Epoch 1/1
+6818/6818 [==============================] - 838s 123ms/step - loss: 0.1970 - acc: 0.9368 - val_loss: 0.0223 - val_acc: 0.9947
+The 21 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 825s 121ms/step - loss: 0.1892 - acc: 0.9387 - val_loss: 0.0120 - val_acc: 0.9962
+The 22 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1712 - acc: 0.9437 - val_loss: 0.0069 - val_acc: 0.9985
+The 23 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 848s 124ms/step - loss: 0.1704 - acc: 0.9451 - val_loss: 0.0062 - val_acc: 0.9985
+The 24 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 124ms/step - loss: 0.1652 - acc: 0.9451 - val_loss: 0.0061 - val_acc: 0.9992
+The 25 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 125ms/step - loss: 0.1627 - acc: 0.9463 - val_loss: 0.0030 - val_acc: 0.9992
+The 26 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1654 - acc: 0.9449 - val_loss: 0.0015 - val_acc: 1.0000
+The 27 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.1616 - acc: 0.9481 - val_loss: 0.0021 - val_acc: 0.9992
+The 28 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 851s 125ms/step - loss: 0.1421 - acc: 0.9509 - val_loss: 8.2616e-04 - val_acc: 1.0000
+The 29 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1422 - acc: 0.9522 - val_loss: 0.0015 - val_acc: 1.0000
+The 30 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1479 - acc: 0.9497 - val_loss: 0.0010 - val_acc: 1.0000
+The 31 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1264 - acc: 0.9579 - val_loss: 0.0011 - val_acc: 1.0000
+The 32 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.1408 - acc: 0.9520 - val_loss: 4.5103e-04 - val_acc: 1.0000
+The 33 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 851s 125ms/step - loss: 0.1253 - acc: 0.9572 - val_loss: 4.6832e-04 - val_acc: 1.0000
+The 34 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.1292 - acc: 0.9570 - val_loss: 5.0380e-04 - val_acc: 1.0000
+The 35 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.1219 - acc: 0.9579 - val_loss: 3.4481e-04 - val_acc: 1.0000
+The 36 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 125ms/step - loss: 0.1242 - acc: 0.9576 - val_loss: 3.7023e-04 - val_acc: 1.0000
+The 37 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 125ms/step - loss: 0.1117 - acc: 0.9644 - val_loss: 1.4278e-04 - val_acc: 1.0000
+The 38 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.1319 - acc: 0.9556 - val_loss: 2.2172e-04 - val_acc: 1.0000
+The 39 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.0993 - acc: 0.9664 - val_loss: 4.9676e-04 - val_acc: 1.0000
+The 40 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.1215 - acc: 0.9591 - val_loss: 1.6580e-04 - val_acc: 1.0000
+The 41 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.1117 - acc: 0.9635 - val_loss: 6.5407e-05 - val_acc: 1.0000
+The 42 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 857s 126ms/step - loss: 0.1025 - acc: 0.9660 - val_loss: 8.0185e-05 - val_acc: 1.0000
+The 43 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 860s 126ms/step - loss: 0.1126 - acc: 0.9632 - val_loss: 1.3808e-04 - val_acc: 1.0000
+The 44 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.1073 - acc: 0.9625 - val_loss: 2.1929e-04 - val_acc: 1.0000
+The 45 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 848s 124ms/step - loss: 0.0981 - acc: 0.9673 - val_loss: 6.4388e-05 - val_acc: 1.0000
+The 46 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.1120 - acc: 0.9627 - val_loss: 2.3054e-04 - val_acc: 1.0000
+The 47 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 124ms/step - loss: 0.0803 - acc: 0.9726 - val_loss: 4.2967e-05 - val_acc: 1.0000
+The 48 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.0885 - acc: 0.9701 - val_loss: 1.2186e-04 - val_acc: 1.0000
+The 49 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 849s 125ms/step - loss: 0.0903 - acc: 0.9676 - val_loss: 6.4465e-05 - val_acc: 1.0000
+The 40 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 850s 125ms/step - loss: 0.1024 - acc: 0.9663 - val_loss: 1.6946e-04 - val_acc: 1.0000
+The 41 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 851s 125ms/step - loss: 0.1026 - acc: 0.9682 - val_loss: 1.9432e-04 - val_acc: 1.0000
+The 42 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.0749 - acc: 0.9762 - val_loss: 2.4560e-05 - val_acc: 1.0000
+The 43 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.0762 - acc: 0.9739 - val_loss: 1.2092e-04 - val_acc: 1.0000
+The 44 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.0920 - acc: 0.9713 - val_loss: 7.1892e-04 - val_acc: 1.0000
+The 45 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 848s 124ms/step - loss: 0.0923 - acc: 0.9689 - val_loss: 9.2892e-05 - val_acc: 1.0000
+The 46 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.0849 - acc: 0.9711 - val_loss: 6.9735e-05 - val_acc: 1.0000
+The 47 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 842s 123ms/step - loss: 0.0863 - acc: 0.9732 - val_loss: 3.4278e-05 - val_acc: 1.0000
+The 48 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.0871 - acc: 0.9726 - val_loss: 5.6194e-05 - val_acc: 1.0000
+The 49 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.0837 - acc: 0.9720 - val_loss: 2.7881e-05 - val_acc: 1.0000
+The 50 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 851s 125ms/step - loss: 0.0793 - acc: 0.9729 - val_loss: 6.7769e-05 - val_acc: 1.0000
+The 51 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 858s 126ms/step - loss: 0.0777 - acc: 0.9749 - val_loss: 7.5678e-05 - val_acc: 1.0000
+The 52 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 852s 125ms/step - loss: 0.0773 - acc: 0.9743 - val_loss: 2.1125e-05 - val_acc: 1.0000
+The 53 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 852s 125ms/step - loss: 0.0752 - acc: 0.9751 - val_loss: 3.1690e-05 - val_acc: 1.0000
+The 54 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 853s 125ms/step - loss: 0.0797 - acc: 0.9740 - val_loss: 7.5868e-05 - val_acc: 1.0000
+The 55 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.0768 - acc: 0.9746 - val_loss: 5.4136e-05 - val_acc: 1.0000
+The 56 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 844s 124ms/step - loss: 0.0849 - acc: 0.9710 - val_loss: 1.4290e-04 - val_acc: 1.0000
+The 57 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 846s 124ms/step - loss: 0.0790 - acc: 0.9730 - val_loss: 8.2868e-06 - val_acc: 1.0000
+The 58 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 845s 124ms/step - loss: 0.0868 - acc: 0.9715 - val_loss: 2.4018e-05 - val_acc: 1.0000
+The 59 th Iteration
+Train on 6818 samples, validate on 1320 samples
+Epoch 1/1
+6818/6818 [==============================] - 847s 124ms/step - loss: 0.0659 - acc: 0.9779 - val_loss: 2.4166e-05 - val_acc: 1.0000
